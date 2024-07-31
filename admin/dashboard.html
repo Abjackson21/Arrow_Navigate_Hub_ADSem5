@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/dashboard.css">
+    <!-- chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- morish bar -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+
+    <title>ARROWWI - Admin</title>
+</head>
+
+<body>
+    <div class="databox">
+        <div class="box roombookbox">
+            <h2>Hotel Booking Service Used</h1>
+                <h1><?php echo $roombookrow ?></h1>
+        </div>
+        <div class="box guestbox">
+            <h2>Total User</h1>
+                <h1><?php echo $userrow ?></h1>
+        </div>
+        <div class="box profitbox">
+            <h2>Total Complaints</h1>
+                <h1><?php echo $totcomp ?> </h1>
+        </div>    
+
+    </div>
+
+    <div class="databox">
+        <div class="box roombookbox">
+            <h2>Hostel Booking Service Used</h1>
+                <h1><?php echo $dormrow ?></h1>
+        </div>
+        <div class="box roombookbox">
+            <h2>Appointment Service Used</h1>
+                <h1><?php echo $appointrow ?></h1>
+        </div>
+    </div>
+    
+</body>
+
+
+</script>
+
+</html>
